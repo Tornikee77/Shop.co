@@ -1,0 +1,10 @@
+@import "tailwindcss";
+:root {
+  --color-white: white;
+  --color-black: #000000;
+  --paragraph-color: #00000060;
+  --button-bg-color: #f0f0f0;
+
+  /* Typography */
+  --font-family-Poppins: "Poppins", Arial;
+}
