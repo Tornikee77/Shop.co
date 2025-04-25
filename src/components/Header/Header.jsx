@@ -1,8 +1,7 @@
-// import { useState } from "react";
-import { Link } from "react-router-dom";
-import { Routes } from "react-router";
+import { useState } from "react";
 
 const Header = () => {
+  const [openShop, setopenShop] = useState(false);
   return (
     <header className="flex justify-between items-center m-auto mt-[24px] w-[1240px] h-[48px] headerMainContainer">
       <a href="/"></a>
@@ -35,7 +34,7 @@ const Header = () => {
           alt="searchIcon"
         />
         <input
-          className="pl-[48px] rounded-[62px] w-[577px] h-[48px] text-[var(--button-bg-color] cursor-pointer colo"
+          className="bg-[var(--button-bg-color)] pl-[48px] rounded-[62px] focus:outline-none w-[577px] h-[48px] cursor-pointer"
           type="text"
           placeholder="Search for something"
         />
