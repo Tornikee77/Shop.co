@@ -1,11 +1,5 @@
-import React, { Children } from "react";
-
-const button = ({ text, color, size }) => {
-  return (
-    <button text={text} color={color} size={size}>
-      {Children}
-    </button>
-  );
+const Button = ({ text, color, size }) => {
+  return <button className={`rounded ${color} ${size}`}>{text}</button>;
 };
 
-export default button;
+export default Button;
