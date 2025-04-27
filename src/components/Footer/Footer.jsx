@@ -39,7 +39,7 @@ const Footer = () => {
         </section>
         <section className="ml-[113px] w-[104px] company">
           <p className="mb-[28px] font-[500]">Company</p>
-          <ul>
+          <ul className="m-auto">
             <li>
               <a href="/">About</a>
             </li>
@@ -54,7 +54,7 @@ const Footer = () => {
             </li>
           </ul>
         </section>
-        <section className="ml-[113px] w-[200px] help">
+        <section className="ml-[113px] w-[280px] help">
           <p className="mb-[28px] font-[500]">HELP</p>
           <ul>
             <li>
@@ -71,9 +71,9 @@ const Footer = () => {
             </li>
           </ul>
         </section>
-        <section className="ml-[113px] w-[175px] faq">
+        <section className="ml-[113px] w-[300px] faq">
           <p className="mb-[28px] font-[500]">FAQ</p>
-          <ul>
+          <ul className="m-auto">
             <li>
               <a href="/">Account</a>
             </li>
@@ -90,7 +90,7 @@ const Footer = () => {
         </section>
         <section className="ml-[149px] w-[200px] resources">
           <p className="mb-[28px] font-[500]">Resources</p>
-          <ul>
+          <ul className="flex flex-col items-center">
             <li>
               <a href="/">Free eBooks</a>
             </li>
