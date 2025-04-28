@@ -1,39 +1,45 @@
+import React from "react";
 import Button from "../button";
 import Closes from "../organisms/Closes";
-import Sale from "../organisms/Sale";
 
-const NewArrival = () => {
+const TopSelling = () => {
   return (
     <div className="flex flex-col m-auto mt-8 mb-[600px] pr-[100px] pl-[100px] border-b-[var(--color-border)] max-w-[1440px] h-[] newArrivalContainer heroContainer">
-      <h2 className="m-auto mb-[55px] font-[900] text-[48px]">NEW ARRIVALS</h2>
+      <div className="w-[100%] title">
+        <h2 className="flex justify-center mb-[55px] font-[900] text-[48px]">
+          TOP SELLING
+        </h2>
+      </div>
+
       <div className="flex gap-3 closeContainer">
         <div className="w-[295px] h-[283px]">
           <Closes
-            title="T-SHIRT WITH TAPE DETAILS"
-            sale="$120"
-            img="./images/png/t-shirt.png"
+            title="VERTICAL STRIPED SHIRT"
+            sale="$212"
+            price="232"
+            img="./images/png/greenShirt.png"
           />
         </div>
         <div className="w-[295px] h-[283px]">
           <Closes
-            title="SKINNY FIT JEANS"
+            title="COURAGE GRAPHIC T-SHIRT"
             price="260"
             sale="$240"
-            img="./images/png/trousers.png"
+            img="./images/png/topSellingOrange.png"
           />
         </div>
         <div className="w-[295px] h-[283px]">
           <Closes
-            title="CHECKERED SHIRT"
-            sale="$180"
-            img="./images/png/redShirt.png"
+            title="LOOSE FIT BERMUDA SHORTS"
+            sale="$80"
+            img="./images/png/blueSkirt.png"
           />
         </div>
         <div className="w-[295px] h-[283px]">
           <Closes
-            title="SLEEVE STRIPED T-SHIRT"
-            sale="$180"
-            img="./images/png/orangeShirt.png"
+            title="FADED SKINNY JEANS"
+            sale="$210"
+            img="./images/png/blackTrouser.png"
           />
         </div>
       </div>
@@ -48,4 +54,4 @@ const NewArrival = () => {
   );
 };
 
-export default NewArrival;
+export default TopSelling;

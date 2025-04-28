@@ -4,7 +4,8 @@ import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import NewArrival from "./components/NewArrival/NewArrival";
 import Dressstyles from "./components/Dressstyle/Dressstyles";
-import HappyCustomer from "./components/HappyCustomers/HappyCustomers";
+import { EmblaCarousel } from "./components/HappyCustomers/EmblaCarousel";
+import TopSelling from "./components/TopSellings/TopSelling";
 
 const Home = () => {
   return (
@@ -12,8 +13,9 @@ const Home = () => {
       <Header />
       <Hero />
       <NewArrival />
+      <TopSelling />
       <Dressstyles />
-      <HappyCustomer />
+      <EmblaCarousel />
       <Footer />
     </div>
   );

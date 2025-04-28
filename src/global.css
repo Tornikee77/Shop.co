@@ -6,6 +6,9 @@
   --button-bg-color: #f0f0f0;
   --components-bg-color: #f2f0f1;
   --color-border: #00000010;
+  --color-sale: #00000040;
+  --color-red: #ff3333;
+  --color-sale-bg: #ff33331a;
 
   /* Typography */
   --font-family-Poppins: "Poppins", Arial;
