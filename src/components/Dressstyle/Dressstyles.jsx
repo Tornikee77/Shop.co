@@ -3,7 +3,7 @@ import styles from "./Dressstyle.module.css";
 
 const Dressstyles = () => {
   return (
-    <div className="grid bg-[var(--button-bg-color)] m-auto mt-8 mb-[600px] pr-[100px] pl-[100px] rounded-[40px] max-w-[1440px]">
+    <div className="grid bg-[var(--button-bg-color)] mx-auto mb-[80px] pr-[100px] pl-[100px] rounded-[40px] max-w-[1440px]">
       <h2 className="m-auto mt-[70px] mb-16 font-[700] text-[48px] dressTitle">
         BROWSE BY Dress STYLE
       </h2>

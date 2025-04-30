@@ -1,9 +1,8 @@
 .embla {
   margin: 0 auto;
-
   padding: 0 100px;
   max-width: 1440px;
-  height: 643px;
+  height: 460px;
 }
 
 .emblaViewport {
@@ -17,8 +16,8 @@
 }
 
 .emblaSlide {
-  padding-right: 20px;
   flex: 0 0 auto;
+  padding-right: 20px;
 }
 
 .card {

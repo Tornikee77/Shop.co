@@ -15,7 +15,7 @@ export function EmblaCarousel() {
 
   return (
     <div className={styles.embla}>
-      <div className="flex justify-between items-center mx-auto mt-8 px-24 max-w-[1440px]">
+      <div className="flex justify-between items-center mx-auto px-24 max-w-[1440px] max-h-[360px]">
         <h2 className="font-[900] text-[48px]">OUR HAPPY CUSTOMERS</h2>
         <div className="flex gap-4">
           <button onClick={scrollPrev} className="cursor-pointer">

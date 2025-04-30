@@ -1,7 +1,6 @@
 footer ul {
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 footer li {
   color: var(--paragraph-color);

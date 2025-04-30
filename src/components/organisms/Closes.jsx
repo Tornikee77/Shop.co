@@ -12,7 +12,7 @@ const Closes = ({ img, title, price, sale }) => {
         <div className="mt-4 mb-[54px] cardDescription">
           <p className="w-[320px] font-[700] text-[20px]">{title}</p>
           <div className="flex gap-[13px] score">
-            <img src="./images/svg/score.svg" alt="" />
+            <img src="./images/svg/score.svg" alt="score" />
             <p>
               4.5/ <span className="text-[var(--paragraph-color)]">5</span>
             </p>
