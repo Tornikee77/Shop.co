@@ -15,7 +15,7 @@ export function EmblaCarousel() {
 
   return (
     <div className={styles.embla}>
-      <div className="flex justify-between items-center mx-auto px-24 max-w-[1440px] max-h-[360px]">
+      <div className="flex justify-between items-center mx-auto max-w-[1440px] max-h-[360px]">
         <h2 className="font-[900] text-[48px]">OUR HAPPY CUSTOMERS</h2>
         <div className="flex gap-4">
           <button onClick={scrollPrev} className="cursor-pointer">
@@ -32,10 +32,10 @@ export function EmblaCarousel() {
           <div className={styles.emblaSlide}>
             <div className={styles.card}>
               <div className={styles.scoreAndName}>
-                <img src="./images/svg/fiveStar.svg" alt="" />
+                <img src="./images/svg/fiveStar.svg" alt="scoreSvg" />
                 <div className={styles.personName}>
                   <p className={styles.name}>Sarah M.</p>
-                  <img src="./images/svg/greenDoneSvg.svg" alt="" />
+                  <img src="./images/svg/greenDoneSvg.svg" alt="doneSvg" />
                 </div>
               </div>
               <div className={styles.personAdvice}>
@@ -51,10 +51,10 @@ export function EmblaCarousel() {
           <div className={styles.emblaSlide}>
             <div className={styles.card}>
               <div className={styles.scoreAndName}>
-                <img src="./images/svg/fiveStar.svg" alt="" />
+                <img src="./images/svg/fiveStar.svg" alt="scoreSvg" />
                 <div className={styles.personName}>
                   <p className={styles.name}>Alex K.</p>
-                  <img src="./images/svg/greenDoneSvg.svg" alt="" />
+                  <img src="./images/svg/greenDoneSvg.svg" alt="doneSvg" />
                 </div>
               </div>
               <div className={styles.personAdvice}>
@@ -70,10 +70,10 @@ export function EmblaCarousel() {
           <div className={styles.emblaSlide}>
             <div className={styles.card}>
               <div className={styles.scoreAndName}>
-                <img src="./images/svg/fiveStar.svg" alt="" />
+                <img src="./images/svg/fiveStar.svg" alt="scoreSvg" />
                 <div className={styles.personName}>
                   <p className={styles.name}>James L.</p>
-                  <img src="./images/svg/greenDoneSvg.svg" alt="" />
+                  <img src="./images/svg/greenDoneSvg.svg" alt="doneSvg" />
                 </div>
               </div>
               <div className={styles.personAdvice}>

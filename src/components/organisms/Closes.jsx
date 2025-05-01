@@ -2,7 +2,7 @@ import Sale from "./Sale";
 
 const Closes = ({ img, title, price, sale }) => {
   return (
-    <div className="flex gap-5 m-auto mt-8 mb-[600px] pr-[100px] pl-[100px] max-w-[1440px] h-[] newArrivalContainer heroContainer">
+    <div className="flex gap-5 m-auto mt-8 mb-[600px] pr-[100px] pl-[100px] max-w-[1440px] newArrivalContainer heroContainer">
       <div className="t-shirtContainer">
         <img
           className="rounded-[20px] w-[295px] h-[298px]"

@@ -1,0 +1,33 @@
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 14px;
+  column-gap: 40px;
+}
+
+.front-T-shirt {
+  width: 152px;
+  height: 167px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.backT-shirt {
+  width: 152px;
+  height: 167px;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.boyWearsT-shirt {
+  width: 152px;
+  height: 167px;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.productMainT-shirt {
+  width: 444px;
+  height: 530px;
+  grid-area: 1 / 2 / 5 / 4;
+}
+.description {
+  background: aqua;
+  width: 600px;
+  grid-area: 1 / 4 / 4 / 6;
+}
