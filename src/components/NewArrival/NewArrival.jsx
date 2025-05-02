@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import Button from "../button";
 import Closes from "../organisms/Closes";
 import Sale from "../organisms/Sale";
-
 const NewArrival = () => {
   return (
     <div className="flex flex-col mx-auto mb-[36px] border-b-[var(--color-border)] max-w-[1440px] h-[680px] newArrivalContainer">
