@@ -1,0 +1,31 @@
+.wrapper {
+  width: 1440px;
+  overflow: hidden;
+  background-color: black;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.track {
+  display: flex;
+  gap: 106px;
+  animation: scrollRight 20s linear infinite;
+}
+
+.img {
+  height: 38px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+@keyframes scrollRight {
+  100% {
+    transform: translateX(100%);
+  }
+
+  0% {
+    transform: translateX(-200%);
+  }
+}

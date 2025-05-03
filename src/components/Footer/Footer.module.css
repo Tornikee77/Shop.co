@@ -1,0 +1,10 @@
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+footer li {
+  color: var(--paragraph-color);
+}
+.company {
+  margin-left: 113px;
+}
