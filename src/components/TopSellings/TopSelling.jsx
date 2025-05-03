@@ -43,7 +43,7 @@ const TopSelling = () => {
             <Closes
               title="FADED SKINNY JEANS"
               sale="$210"
-              img="./images/png/blackTrouser.png"
+              img="./images/png/blackTrouser.png"  
             />
           </div>
         </Link>

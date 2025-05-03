@@ -14,7 +14,7 @@ const Product = () => {
   };
 
   const handleDecrease = () => {
-    if (cartCount > 1) {
+    if (cartCount > 0) {
       setCartCount((prev) => prev - 1);
     }
   };
@@ -23,7 +23,6 @@ const Product = () => {
     <div>
       <Header />
 
-      {/* Cart Icon */}
       <div className="relative mt-4 mr-10 ml-auto w-[40px] h-[40px] carts">
         <img
           className="w-[24px] h-[24px]"
@@ -39,7 +38,6 @@ const Product = () => {
 
       <div className="bg-[var(--color-line)] m-auto w-[1240px] h-[1px] line"></div>
 
-      {/* Breadcrumbs */}
       <div className="flex gap-3 m-auto mb-[20px] w-[1240px] pageNavigationButtons">
         <button className="flex justify-center items-center gap-[10px] w-[63px] h-[26px]">
           <p className="text-[var(--paragraph-color)]">Home</p>
@@ -71,7 +69,6 @@ const Product = () => {
       <div
         className={`${Style.productContainer} grid m-auto w-[1240px] h-[612px] justify-center mb-[80px]`}
       >
-        {/* Product Images */}
         <div className={Style["front-T-shirt"]}>
           <img
             className="flex justify-center items-center"
@@ -101,7 +98,6 @@ const Product = () => {
           />
         </div>
 
-        {/* Product Description */}
         <div className={Style["description"]}>
           <h2 className="w-[598px] font-[900] text-[43px]">
             ONE LIFE GRAPHIC T-SHIRT
@@ -135,7 +131,6 @@ const Product = () => {
             a soft and breathable fabric, it offers superior comfort and style.
           </p>
 
-          {/* Colors */}
           <div className="flex flex-col justify-center m-auto border-gray-300 border-t border-b w-[590px] h-[112px] colorContainer">
             <p className="text-[var(--paragraph-color)]">Select Colors</p>
             <div className="flex gap-[16px] buttons">
@@ -154,7 +149,6 @@ const Product = () => {
             </div>
           </div>
 
-          {/* Sizes */}
           <div className="flex flex-col gap-4 border-gray-300 border-b w-[590px] h-[121px] colorContainer">
             <p className="text-[var(--paragraph-color)]">Choose Size</p>
             <div className="flex gap-4 buttons">
@@ -181,7 +175,6 @@ const Product = () => {
             </div>
           </div>
 
-          {/* Quantity + Add to Cart */}
           <div className="flex gap-4 buttons">
             <div>
               <button className="flex justify-center items-center gap-[20px] bg-[var(--button-bg-color)] rounded-[64px] w-[170px] h-[52px]">
