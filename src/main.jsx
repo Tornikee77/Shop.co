@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App.jsx";
 import "./global.css";
+import { CartProvider } from "./CartContext/CartContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useContext } from "react";
 
 const Header = () => {
   const [openShop, setopenShop] = useState(false);
@@ -40,11 +41,17 @@ const Header = () => {
         />
       </div>
       <div className="flex justify-center items-center gap-[14px] cartAndProfile">
-        <img
-          className="w-[24px] h-[24px]"
-          src="./images/svg/cart.svg"
-          alt="cart"
-        />
+        <div className="relative flex justify-center items-center w-[40px] h-[40px] carts">
+          <img
+            className="w-[24px] h-[24px]"
+            src="./images/svg/cart.svg"
+            alt="cart"
+          />
+          <div className="right-[20px] bottom-[25px] left-[28px] absolute flex justify-center items-center bg-amber-500 rounded-[62px] w-[20px] h-[20px]">
+            1
+          </div>
+        </div>
+
         <img
           className="w-[24px] h-[24px]"
           src="./images/svg/profile.svg"
