@@ -54,14 +54,14 @@ const Product = () => {
         <div className={Style["backT-shirt"]}>
           <img
             className="w-[152px] h-[167px]"
-            src="images/png/productBackImg.png"
+            src="/images/png/productBackImg.png"
             alt="t-shirt"
           />
         </div>
         <div className={Style["boyWearsT-shirt"]}>
           <img
             className="w-[152px] h-[167px]"
-            src="images/png/boyWearT-shirt.png"
+            src="/images/png/boyWearT-shirt.png"
             alt="t-shirt"
           />
         </div>
@@ -106,12 +106,12 @@ const Product = () => {
             a soft and breathable fabric, it offers superior comfort and style.
           </p>
 
-          <div className="flex flex-col justify-center m-auto border-gray-300 border-t border-b w-[590px] h-[112px] colorContainer">
+          <div className="flex flex-col justify-center items-start m-auto border-gray-300 border-t border-b w-[590px] h-[112px] colorContainer">
             <p className="text-[var(--paragraph-color)]">Select Colors</p>
-            <div className="flex gap-[16px] buttons">
+            <div className="flex gap-[16px] r buttons">
               <Button
                 color="bg-[var(--color-tobacco-t-shirt)]"
-                size="w-[50px] h-[50px] rounded-[62px] m-[auto]  cursor-pointer"
+                size="w-[50px] h-[50px] rounded-[62px] m-[auto]   cursor-pointer"
               />
               <Button
                 color="bg-[var(--color-green-t-shirt)]"
@@ -124,7 +124,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 border-gray-300 border-b w-[590px] h-[121px] colorContainer">
+          <div className="flex flex-col justify-center items-start m-auto border-gray-300 border-b w-[590px] h-[112px] colorContainer">
             <p className="text-[var(--paragraph-color)]">Choose Size</p>
             <div className="flex gap-4 buttons">
               <Button

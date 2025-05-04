@@ -30,32 +30,28 @@ const Footer = () => {
           <section className="flex flex-col w-[290px] h-[177px] socMedia">
             <h5 className="font-[900] text-[34px]">SHOP.CO</h5>
             <p className="mt-[25px] w-[260px] font-[14px] text-[#00000060] footerDescription">
-              We have clothes that suits your style and which you’re proud to
+              We have clothes that suits your style and which you're proud to
               wear. From women to men.
             </p>
             <div className="flex gap-3 mt-[35px] socNets">
               <div className="flex justify-center items-center bg-white rounded-[50%] w-[28px] h-[28px] twitter">
                 <a href="https://x.com/">
-                  <img
-                    src="/images/svg/twitter.svg
-                "
-                    alt="twitter"
-                  />
+                  <img src="/images/svg/twitter.svg" alt="twitter" />
                 </a>
               </div>
               <div className="flex justify-center items-center bg-[var(--color-black)] rounded-[50%] w-[28px] h-[28px] facebook">
                 <a href="https://www.facebook.com/">
-                  <img src="images/svg/facebook.svg" alt="afcebook" />
+                  <img src="/images/svg/facebook.svg" alt="afcebook" />
                 </a>
               </div>
               <div className="flex justify-center items-center bg-white rounded-[50%] w-[28px] h-[28px] instagram">
                 <a href="https://www.instagram.com/">
-                  <img src="images/svg/footerInstagram.svg" alt="instagram" />
+                  <img src="/images/svg/footerInstagram.svg" alt="instagram" />
                 </a>
               </div>
               <div className="flex justify-center items-center bg-white rounded-[50%] w-[28px] h-[28px] github">
                 <a href="https://github.com">
-                  <img src="images/svg/footerGithub.svg" alt="github" />
+                  <img src="/images/svg/footerGithub.svg" alt="github" />
                 </a>
               </div>
             </div>
