@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Sale from "./Sale";
 
 const Closes = ({ img, title, price, sale }) => {
@@ -19,16 +20,18 @@ const Closes = ({ img, title, price, sale }) => {
           </div>
           <div className="flex gap-[10px] priceCpntainer">
             <p className="font-[700] text-[24px]">
-              {sale}
+              ${price}
               <span className="ml-[10px] text-[var(--color-sale)] line-through">
-                {price}
+                {sale}
               </span>
             </p>
-            <Sale
-              text="-20%"
-              color="bg-[var(--color-sale-bg)] text-[var(--color-red)]"
-              size="w-[58px] h-[28] rounded-[62px] flex justify-center items-center"
-            />
+            {sale && (
+              <Sale
+                text="-20%"
+                color="bg-[var(--color-sale-bg)] text-[var(--color-red)]"
+                size="w-[58px] h-[28] rounded-[62px] flex justify-center items-center"
+              />
+            )}
           </div>
         </div>
       </div>

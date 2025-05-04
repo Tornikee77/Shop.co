@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Button from "../button";
+
 import Style from "./AllReviews.module.css";
+import Button from "../button";
 
 const AllReviews = () => {
   const [activeTab, setActiveTab] = useState(false);
@@ -73,175 +74,150 @@ const AllReviews = () => {
         </div>
 
         <div className={Style.reviewsCardContainer}>
-          <div className={Style.reviewsCardContainer}>
-            <div
-              className={`${Style.reviewCard1} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
+          <div
+            className={`${Style.reviewCard1} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
             </div>
-
-            <div
-              className={`${Style.reviewCard2} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
             </div>
-
-            <div
-              className={`${Style.reviewCard3} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={`${Style.reviewCard4} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={`${Style.reviewCard5} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={`${Style.reviewCard6} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
-            >
-              <div className="flex justify-between mt-[28px] pr-8 pl-8">
-                <img
-                  className="w-[127px]"
-                  src="./images/svg/score.svg"
-                  alt=""
-                />
-                <img src="./images/svg/details.svg" alt="" />
-              </div>
-              <div className="flex gap-1 mt-[15px] pr-8 pl-8">
-                <p>Samantha D.</p>
-                <img src="./images/svg/greenDoneSvg.svg" alt="" />
-              </div>
-              <div>
-                <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  "I absolutely love this t-shirt! The design is unique and the
-                  fabric feels so comfortable. As a fellow designer, I
-                  appreciate the attention to detail. It's become my favorite
-                  go-to shirt."
-                </p>
-                <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
-                  Posted on August 16, 2023
-                </p>
-              </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
             </div>
           </div>
+
+          <div
+            className={`${Style.reviewCard2} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
+            </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+            </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`${Style.reviewCard3} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
+            </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+            </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`${Style.reviewCard4} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
+            </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+            </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`${Style.reviewCard5} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
+            </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+            </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`${Style.reviewCard6} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
+          >
+            <div className="flex justify-between mt-[28px] pr-8 pl-8">
+              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img src="./images/svg/details.svg" alt="" />
+            </div>
+            <div className="flex gap-1 mt-[15px] pr-8 pl-8">
+              <p>Samantha D.</p>
+              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+            </div>
+            <div>
+              <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                "I absolutely love this t-shirt! The design is unique and the
+                fabric feels so comfortable. As a fellow designer, I appreciate
+                the attention to detail. It's become my favorite go-to shirt."
+              </p>
+              <p className="mt-6 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
+                Posted on August 16, 2023
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="m-auto mx-auto w-[218px] reviewButtonContainer">
+          <Button
+            text="Load More Reviews"
+            color="bg-transparent text-[var(--volor-black)]"
+            size="w-[230px] h-[52px] rounded-[62px] border-1 cursor-pointer mx-auto"
+          />
         </div>
       </div>
     </div>

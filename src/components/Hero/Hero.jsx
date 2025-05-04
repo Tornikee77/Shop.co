@@ -3,7 +3,7 @@ import Button from "../button";
 
 const Hero = () => {
   return (
-    <div className="flex bg-[var(--components-bg-color)] m-auto mt-8 pr-[100px] pl-[100px] max-w-[1440px] h-[643px] heroContainer">
+    <div className="flex bg-[var(--components-bg-color)] m-auto mt-8 pr-[100px] pl-[100px] w-[1440px] h-[643px] heroContainer">
       <div className="flex flex-col flex-1 mt-[100px] w-[720px] col heroLeftContaine">
         <p className="w-[566px] font-[700] text-[62px]">
           FIND CLOTHES THAT MATCHES YOUR STYLE
