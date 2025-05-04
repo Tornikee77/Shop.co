@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const apiURL = "https://680a6770d5075a76d987e97a.mockapi.io/Cards";
-const TopSelling = () => {
+const MightNow = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -22,11 +22,13 @@ const TopSelling = () => {
     fetchCards();
   }, []);
   return (
-    <div className="flex flex-col mx-auto mb-[80px] border-b-[var(--color-border)] max-w-[1440px] h-[680px] newArrivalContainer">
-      <h2 className="mx-auto mb-[55px] font-[900] text-[48px]">TOP SELLING</h2>
+    <div className="flex flex-col mx-auto mb-[80px] border-b-[var(--color-border)] max-w-[1440px] h-[680px] mightKnow">
+      <h2 className="mx-auto mb-[55px] font-[900] text-[48px]">
+        You might also like
+      </h2>
 
       <div className="flex gap-5 w-[1220px] h-[500px]">
-        {cards.slice(4, 8).map((card) => (
+        {cards.slice(8, 12).map((card) => (
           <Link to="/product">
             <div className="w-[295px] h-[455px]">
               <Closes
@@ -40,16 +42,8 @@ const TopSelling = () => {
           </Link>
         ))}
       </div>
-
-      <div className="m-auto w-[218px]">
-        <Button
-          text="View All"
-          color="bg-transparent text-[var(--volor-black)]"
-          size="w-[218px] h-[52px] rounded-[62px] border-1 cursor-pointer"
-        />
-      </div>
     </div>
   );
 };
 
-export default TopSelling;
+export default MightNow;

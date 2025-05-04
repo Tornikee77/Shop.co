@@ -1,8 +1,4 @@
-import { useState } from "react";
-import { useContext } from "react";
-
 const Header = () => {
-  const [openShop, setopenShop] = useState(false);
   return (
     <header className="flex justify-between items-center m-auto mt-[24px] w-[1240px] h-[48px] headerMainContainer">
       <a href="/"></a>
@@ -11,7 +7,6 @@ const Header = () => {
         src="./images/svg/shopSiteLogo.svg"
         alt="siteLogo"
       />
-
       <nav>
         <ul className="flex gap-6 w-[321px]">
           <li>
