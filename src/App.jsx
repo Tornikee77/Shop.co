@@ -7,9 +7,9 @@ import Product from "./Procuct/Product";
 const App = () => {
   return (
     <Routes>
-      <Route path="/saba" element={<RegisterForm />} />
+      <Route path="/" element={<RegisterForm />} />
       <Route path="/successfully" element={<SuccessfullyLogin />} />
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/product" element={<Product />} />
     </Routes>
   );
