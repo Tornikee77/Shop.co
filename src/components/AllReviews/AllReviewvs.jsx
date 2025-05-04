@@ -61,7 +61,7 @@ const AllReviews = () => {
             </div>
             <button className="flex justify-center items-center gap-[23px] bg-[var(--button-bg-color)] rounded-[62px] w-[120px] h-[48px]">
               <p>Latest</p>
-              <img src="./images/svg/checkboxIcon.svg" alt="" />
+              <img src="/images/svg/checkboxIcon.svg" alt="" />
             </button>
             <div>
               <Button
@@ -79,11 +79,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
@@ -102,11 +102,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
@@ -125,11 +125,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
@@ -148,11 +148,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
@@ -171,11 +171,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">
@@ -194,11 +194,11 @@ const AllReviews = () => {
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
               <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
-              <img src="./images/svg/details.svg" alt="" />
+              <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
               <p>Samantha D.</p>
-              <img src="./images/svg/greenDoneSvg.svg" alt="" />
+              <img src="/images/svg/greenDoneSvg.svg" alt="" />
             </div>
             <div>
               <p className="mt-3 pr-8 pl-8 w-[522px] text-[var(--paragraph-color)]">

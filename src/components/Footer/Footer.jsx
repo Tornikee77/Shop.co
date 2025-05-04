@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="flex justify-center items-center bg-white rounded-[50%] w-[28px] h-[28px] twitter">
                 <a href="https://x.com/">
                   <img
-                    src="./images/svg/twitter.svg
+                    src="/images/svg/twitter.svg
                 "
                     alt="twitter"
                   />
@@ -135,11 +135,11 @@ const Footer = () => {
             Shop.co © 2000-2023, All Rights Reserved
           </p>
           <div className="flex gap-3 payments">
-            <img src="./images/svg/visa.svg" alt="" />
-            <img src="./images/svg/masterCard.svg" alt="" />
-            <img src="./images/svg/payPal.svg" alt="" />
-            <img src="./images/svg/applePay.svg" alt="" />
-            <img src="./images/svg/googlePay.svg" alt="" />
+            <img src="/images/svg/visa.svg" alt="" />
+            <img src="/images/svg/masterCard.svg" alt="" />
+            <img src="/images/svg/payPal.svg" alt="" />
+            <img src="/images/svg/applePay.svg" alt="" />
+            <img src="/images/svg/googlePay.svg" alt="" />
           </div>
         </div>
       </footer>
