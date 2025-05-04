@@ -27,7 +27,7 @@ const TopSelling = () => {
 
       <div className="flex gap-5 w-[1220px] h-[500px]">
         {cards.slice(4, 8).map((card) => (
-          <Link to="/product">
+          <Link key={card.id} to="/product">
             <div className="w-[295px] h-[455px]">
               <Closes
                 title={card.name}

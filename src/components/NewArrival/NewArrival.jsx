@@ -29,7 +29,7 @@ const NewArrival = () => {
 
       <div className="flex gap-5 w-[1220px] h-[500px]">
         {cards.slice(0, 4).map((card) => (
-          <Link to="/product" key={card.id}>
+          <Link to={`/product/`} key={card.id}>
             <div className="w-[295px] h-[283px]">
               <Closes
                 title={card.name}
@@ -46,7 +46,7 @@ const NewArrival = () => {
       <div className="m-auto mt-[36px] w-[218px]">
         <Button
           text="View All"
-          color="bg-transparent text-[var(--volor-black)]"
+          color="bg-transparent text-[var(--color-black)]"
           size="w-[218px] h-[52px] rounded-[62px] m-[auto] border-1 cursor-pointer"
         />
       </div>

@@ -1,6 +1,6 @@
-@media screen and (min-width: 1025px) {
-  .nav,
-  .searchWrapper {
+@media screen and (min-width: 350px) {
+  nav,
+  input {
     display: none;
   }
 }
