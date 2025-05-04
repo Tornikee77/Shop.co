@@ -54,7 +54,7 @@ const AllReviews = () => {
           <div className="flex gap-[10px]">
             <div>
               <Button
-                img="./images/svg/parametre.svg"
+                img="/images/svg/parametre.svg"
                 size="w-[48px] h-[48px] rounded-[62px] flex justify-center items-center cursor-pointer"
                 color="bg-[var(--button-bg-color)]"
               />
@@ -78,7 +78,7 @@ const AllReviews = () => {
             className={`${Style.reviewCard1} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
-              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img className="w-[127px]" src="/images/svg/score.svg" alt="" />
               <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">
@@ -101,7 +101,7 @@ const AllReviews = () => {
             className={`${Style.reviewCard2} flex flex-col bg-[var(--color-white)] border border-gray-300 rounded-[20px] w-[610px] h-[241px]`}
           >
             <div className="flex justify-between mt-[28px] pr-8 pl-8">
-              <img className="w-[127px]" src="./images/svg/score.svg" alt="" />
+              <img className="w-[127px]" src="/images/svg/score.svg" alt="" />
               <img src="/images/svg/details.svg" alt="" />
             </div>
             <div className="flex gap-1 mt-[15px] pr-8 pl-8">

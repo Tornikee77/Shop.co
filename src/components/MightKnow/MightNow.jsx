@@ -29,13 +29,17 @@ const MightNow = () => {
 
       <div className="flex gap-5 w-[1220px] h-[500px]">
         {cards.slice(8, 12).map((card) => (
-          <Link to="/product">
+          <Link to="/product" key={card.id}>
             <div className="w-[295px] h-[455px]">
               <Closes
                 title={card.name}
                 price={card.price}
                 sale={card.sale}
-                img={card.img}
+                img={
+                  card.img.startsWith("/")
+                    ? card.img
+                    : `/${card.img.replace(/^\.\//, "")}`
+                }
                 score={card.score}
               />
             </div>
