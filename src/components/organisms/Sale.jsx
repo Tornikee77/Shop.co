@@ -1,5 +1,3 @@
-import React from "react";
-
 const Sale = ({ color, size, text }) => {
   return <div className={`rounded ${color} ${size}`}>{text}</div>;
 };

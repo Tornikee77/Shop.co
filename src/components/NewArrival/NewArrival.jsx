@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Button from "../button";
 import Closes from "../organisms/Closes";
 
-// API URL
 const apiURL = "https://680a6770d5075a76d987e97a.mockapi.io/Cards";
 
 const NewArrival = () => {

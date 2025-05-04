@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Sale from "./Sale";
 
 const Closes = ({ img, title, price, sale }) => {

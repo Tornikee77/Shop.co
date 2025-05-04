@@ -1,5 +1,3 @@
-import React from "react";
-import Button from "../button";
 import Closes from "../organisms/Closes";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
