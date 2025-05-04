@@ -50,7 +50,7 @@ const Header = () => {
         <img
           className="w-[24px] h-[24px]"
           src="/images/svg/profile.svg"
-          alt=""
+          alt="profile"
         />
       </div>
     </header>

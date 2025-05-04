@@ -131,11 +131,11 @@ const Footer = () => {
             Shop.co © 2000-2023, All Rights Reserved
           </p>
           <div className="flex gap-3 payments">
-            <img src="/images/svg/visa.svg" alt="" />
-            <img src="/images/svg/masterCard.svg" alt="" />
-            <img src="/images/svg/payPal.svg" alt="" />
-            <img src="/images/svg/applePay.svg" alt="" />
-            <img src="/images/svg/googlePay.svg" alt="" />
+            <img src="/images/svg/visa.svg" alt="visa" />
+            <img src="/images/svg/masterCard.svg" alt="masterCard" />
+            <img src="/images/svg/payPal.svg" alt="paypal" />
+            <img src="/images/svg/applePay.svg" alt="applepay" />
+            <img src="/images/svg/googlePay.svg" alt="goolepay" />
           </div>
         </div>
       </footer>

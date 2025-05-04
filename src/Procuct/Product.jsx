@@ -19,7 +19,7 @@ const Product = () => {
           <img
             className="mt-[5px]"
             src="/images/svg/navigationArrow.svg"
-            alt=""
+            alt="navigationArrow"
           />
         </button>
         <button className="flex justify-center items-center gap-[10px] w-[63px] h-[26px]">
@@ -27,7 +27,7 @@ const Product = () => {
           <img
             className="mt-[5px]"
             src="/images/svg/navigationArrow.svg"
-            alt=""
+            alt="navigationArrow"
           />
         </button>
         <button className="flex justify-center items-center gap-[10px] w-[63px] h-[26px]">
@@ -35,7 +35,7 @@ const Product = () => {
           <img
             className="mt-[5px]"
             src="/images/svg/navigationArrow.svg"
-            alt=""
+            alt="navigationArrow"
           />
         </button>
         <p>T-Shirt</p>
@@ -69,7 +69,7 @@ const Product = () => {
           <img
             className="h-[575px]"
             src="/images/png/productMainT-shirt.png"
-            alt=""
+            alt="maint-shirt"
           />
         </div>
 
