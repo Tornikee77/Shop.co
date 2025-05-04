@@ -1,5 +1,3 @@
-import Style from "./Header.module.css";
-
 const Header = () => {
   return (
     <header className="flex justify-between items-center m-auto mt-[24px] w-[1240px] h-[48px] headerMainContainer">

@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
   .hero-section {
     flex-direction: column;
     justify-content: space-between;

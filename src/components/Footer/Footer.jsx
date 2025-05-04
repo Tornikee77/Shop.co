@@ -15,7 +15,7 @@ const Footer = () => {
             size="w-[349px] h-[48px] flex justify-center items-center gap-3 rounded-[62px] cursor-pointer
             "
             color="bg-[var(--color-white)]"
-            img="./images/svg/messageIcon.svg"
+            img="/images/svg/messageIcon.svg"
           />
           <Button
             text="Enter your email address"
