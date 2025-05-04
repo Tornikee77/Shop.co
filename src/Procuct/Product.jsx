@@ -1,42 +1,17 @@
-import React, { useState } from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Style from "./Product.module.css";
 import Sale from "../components/organisms/Sale";
 import Button from "../components/button";
 import AllReviewvs from "../components/AllReviews/AllReviewvs";
+import MightNow from "../components/MightKnow/MightNow";
 
 const Product = () => {
-  const [cartCount, setCartCount] = useState(1);
-
-  const handleIncrease = () => {
-    setCartCount((prev) => prev + 1);
-  };
-
-  const handleDecrease = () => {
-    if (cartCount > 0) {
-      setCartCount((prev) => prev - 1);
-    }
-  };
-
   return (
     <div>
       <Header />
 
-      <div className="relative mt-4 mr-10 ml-auto w-[40px] h-[40px] carts">
-        <img
-          className="w-[24px] h-[24px]"
-          src="./images/svg/cart.svg"
-          alt="cart"
-        />
-        {cartCount > 0 && (
-          <div className="-top-2 -right-2 absolute flex justify-center items-center bg-amber-500 rounded-full w-[20px] h-[20px] font-bold text-[12px] text-white">
-            {cartCount}
-          </div>
-        )}
-      </div>
-
-      <div className="bg-[var(--color-line)] m-auto w-[1240px] h-[1px] line"></div>
+      <div className="bg-[var(--color-line)] m-auto mt-[24px] mb-[24px] w-[1240px] h-[1px] line"></div>
 
       <div className="flex gap-3 m-auto mb-[20px] w-[1240px] pageNavigationButtons">
         <button className="flex justify-center items-center gap-[10px] w-[63px] h-[26px]">
@@ -179,14 +154,12 @@ const Product = () => {
             <div>
               <button className="flex justify-center items-center gap-[20px] bg-[var(--button-bg-color)] rounded-[64px] w-[170px] h-[52px]">
                 <img
-                  onClick={handleDecrease}
                   className="cursor-pointer"
                   src="./images/svg/disCount.svg"
                   alt="decrease"
                 />
-                <p>{cartCount}</p>
+
                 <img
-                  onClick={handleIncrease}
                   className="cursor-pointer"
                   src="./images/svg/increase.svg"
                   alt="increase"
@@ -203,8 +176,8 @@ const Product = () => {
           </div>
         </div>
       </div>
-
       <AllReviewvs />
+      <MightNow />
       <Footer />
     </div>
   );
