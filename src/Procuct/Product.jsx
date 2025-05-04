@@ -18,7 +18,7 @@ const Product = () => {
           <p className="text-[var(--paragraph-color)]">Home</p>
           <img
             className="mt-[5px]"
-            src="./images/svg/navigationArrow.svg"
+            src="/images/svg/navigationArrow.svg"
             alt=""
           />
         </button>
@@ -26,7 +26,7 @@ const Product = () => {
           <p className="text-[var(--paragraph-color)]">Shop</p>
           <img
             className="mt-[5px]"
-            src="./images/svg/navigationArrow.svg"
+            src="/images/svg/navigationArrow.svg"
             alt=""
           />
         </button>
@@ -34,7 +34,7 @@ const Product = () => {
           <p className="text-[var(--paragraph-color)]">Men</p>
           <img
             className="mt-[5px]"
-            src="./images/svg/navigationArrow.svg"
+            src="/images/svg/navigationArrow.svg"
             alt=""
           />
         </button>
@@ -47,7 +47,7 @@ const Product = () => {
         <div className={Style["front-T-shirt"]}>
           <img
             className="flex justify-center items-center"
-            src="./images/png/productFrontImg.png"
+            src="/images/png/productFrontImg.png"
             alt="t-shirt"
           />
         </div>
@@ -68,7 +68,7 @@ const Product = () => {
         <div className={Style["productMainT-shirt"]}>
           <img
             className="h-[575px]"
-            src="./images/png/productMainT-shirt.png"
+            src="/images/png/productMainT-shirt.png"
             alt=""
           />
         </div>
@@ -81,7 +81,7 @@ const Product = () => {
           <div className="flex items-center gap-[14px] priceCont">
             <img
               className="w-[139px]"
-              src="./images/svg/score.svg"
+              src="/images/svg/score.svg"
               alt="score"
             />
             <p>
@@ -155,13 +155,13 @@ const Product = () => {
               <button className="flex justify-center items-center gap-[20px] bg-[var(--button-bg-color)] rounded-[64px] w-[170px] h-[52px]">
                 <img
                   className="cursor-pointer"
-                  src="./images/svg/disCount.svg"
+                  src="/images/svg/disCount.svg"
                   alt="decrease"
                 />
 
                 <img
                   className="cursor-pointer"
-                  src="./images/svg/increase.svg"
+                  src="/images/svg/increase.svg"
                   alt="increase"
                 />
               </button>
