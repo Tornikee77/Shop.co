@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex justify-between items-center m-auto mt-[24px] w-[1240px] h-[48px] headerMainContainer">
+    <header className="flex justify-between items-center lg:bg-[aqua] m-auto mt-[24px] w-[400px] lg:w-[1240px] h-[48px] headerMainContainer">
       <a href="/"></a>
       <img
         className="flex justify-center items-center w-[160px] h-[22px]"
@@ -8,7 +8,7 @@ const Header = () => {
         alt="siteLogo"
       />
       <nav>
-        <ul className="flex gap-6 w-[321px]">
+        <ul className="flex gap-6 m-auto w-[321px]">
           <li>
             <a href="/">Shop</a>
           </li>
@@ -30,7 +30,7 @@ const Header = () => {
           alt="searchIcon"
         />
         <input
-          className="bg-[var(--button-bg-color)] pl-[48px] rounded-[62px] focus:outline-none w-[577px] h-[48px] cursor-pointer"
+          className="hidden lg:flex bg-[var(--button-bg-color)] pl-[48px] rounded-[62px] focus:outline-none w-[577px] h-[48px] cursor-pointer"
           type="text"
           placeholder="Search for something"
         />
