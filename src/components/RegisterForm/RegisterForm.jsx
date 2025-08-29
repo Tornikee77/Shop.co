@@ -29,7 +29,7 @@ const RegisterForm = () => {
   });
 
   const handleForm = async (data) => {
-    fetch("https://68175c8026a599ae7c3a2220.mockapi.io/feedbacks", {
+    fetch("https://680a6770d5075a76d987e97a.mockapi.io/Cards", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

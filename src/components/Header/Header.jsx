@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex justify-between items-center lg:bg-[aqua] m-auto mt-[24px] w-[400px] lg:w-[1240px] h-[48px] headerMainContainer">
+    <header className="flex justify-between items-center m-auto mt-[24px] w-[400px] lg:w-[1240px] h-[48px] headerMainContainer">
       <a href="/"></a>
       <img
         className="flex justify-center items-center w-[160px] h-[22px]"
